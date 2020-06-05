@@ -67,39 +67,31 @@ h2 {
 
 .name2{
     margin-top:10%;
+
     
 }
 
-.grid-container {
+.projectimagesgrid {
     display: flex;
-    justify-content:space-evenly;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-content:center;
+    margin-top:10%;
+    margin-bottom:10%;
    
     
 }
 
-.grid-container div{
-    width:100%;
+.projectimagesgrid div{
+    width:29%;
 }
-
-
-#image-grid {
-    margin-top:10%
     
-
-}
-
-.footer-container {
+.footer-container{
     display: flex;
     justify-content: center;
-    
 }
-
-.footer-container div{
-    
-}
-
 footer {
-    margin-top:5%;
+    margin:0 auto;
     background-color:cornflowerblue;
     
 
