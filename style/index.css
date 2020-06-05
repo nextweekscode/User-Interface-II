@@ -41,7 +41,7 @@ h2 {
 .link {
     font-size:2rem;
     border:2px solid black;
-    border-radius: 20%;
+    border-radius: 5%;
     background-color:purple;
     color:grey;
     text-decoration:none;
@@ -52,23 +52,22 @@ h2 {
 .header-container {
     display: flex;
     justify-content:space-between;
-    align-items:center;
     
 }
    
 #about{
-    display: flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
+    
+    
     
 
 }
 
 .name2{
     margin-top:10%;
-
-    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
 
 .projectimagesgrid {
@@ -88,8 +87,14 @@ h2 {
     
 .footer-container{
     display: flex;
+    flex-direction:column;
+}
+
+.footer-container div{
+    display: flex;
     justify-content: center;
 }
+
 footer {
     margin:0 auto;
     background-color:cornflowerblue;
