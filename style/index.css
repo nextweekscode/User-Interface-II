@@ -75,7 +75,7 @@ nav .link:hover{
     background: url(https://images.unsplash.com/photo-1503198515498-d0bd9ed16902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size:80%;
     padding:10%;
     margin-top:5%;
 }
