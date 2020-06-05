@@ -45,22 +45,22 @@ h2 {
     background-color:purple;
     color:grey;
     text-decoration:none;
-
-
+}
+nav .link:hover{
+    color:white;
+    background-color:black;
 }
 
+  
 .header-container {
     display: flex;
     justify-content:space-between;
+   
+
     
 }
    
-#about{
-    
-    
-    
 
-}
 
 .name2{
     margin-top:10%;
