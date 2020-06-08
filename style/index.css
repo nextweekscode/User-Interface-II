@@ -75,7 +75,7 @@ nav .link:hover{
     background: url(https://images.unsplash.com/photo-1503198515498-d0bd9ed16902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:80%;
+    background-size:70%;
     padding:10%;
     margin-top:5%;
 }
@@ -94,7 +94,11 @@ nav .link:hover{
 }
 
 .projectimagesgrid div{
-    width:29%;
+    width:35%;
+}
+
+.projectimagesgrid img{
+    width:40%;
 }
     
 .footer-container{
@@ -113,3 +117,49 @@ footer {
     
 
 }
+@media(max-width:800px){
+    .name2 p{
+        text-align:center;
+        font-size:90%;
+        width:80%;
+    }
+    .
+}
+
+@media(max-width:500px){
+    .header-container{
+        flex-direction:column;
+        align-items:center;
+        
+    }
+    .navbar{
+        margin-left:45%;
+    }
+    .navbar nav {
+        width:20%;
+    }
+    #about {
+        width:90%;
+        padding:10%;
+    }
+    .name2 h2{
+        text-align:center;
+    }
+    .name2 p{
+        text-align:center;
+        font-size:90%;
+        width:80%;
+    }
+ 
+    }
+    .projectimagesgrid{
+        flex-flow:wrap;
+        justify-content:space-around;
+    }
+
+    .projectimagesgrid div{
+        width:40%;
+     }
+   footer {
+       
+   }
